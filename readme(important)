@@ -1,0 +1,8 @@
+This code is NOT for odroid, this is for calibration.
+
+Instructions:
+1. After running this code, press "space" or "esc" when the target line is completely in the frame. It will pause the video/stream.
+2. Now, use trackbars in "control" to set the params.
+3. After being convinced with parameters and the result in the "Lines" window, press "esc".
+4. A file called "params.txt" will be formed with all the parameters.
+5. Copy this file in the folder containing "LineOdroid.cpp" in odroid.
